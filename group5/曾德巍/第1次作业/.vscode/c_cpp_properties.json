@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "includePath": [
+                "F:\\cprogram\\DISK_C\\mycode\\include",
+                "F:\\cprogram\\DISK_C\\BORLANDC\\INCLUDE"
+
+            ],
+            "compilerPath": "E:\\app\\vscode\\LLVM\\bin\\clang.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

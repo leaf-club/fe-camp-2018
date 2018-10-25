@@ -1,0 +1,27 @@
+#class
+{
+    border-collapse: collapse;
+    width: 100%;
+    caption-side: bottom;
+    /* vertical-align: center; */
+}
+
+#class th,#class td
+{
+    height: 50px;
+    width: 100px;
+    border: 2px solid green;
+    padding: 3px 7px 3px 7px;
+    text-align: center;
+}
+
+#class th
+{
+    background-color: aquamarine;
+    color: azure;
+}
+
+#class .alt
+{
+    background-color: lightgreen;
+}

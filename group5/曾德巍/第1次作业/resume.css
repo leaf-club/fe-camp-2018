@@ -1,0 +1,41 @@
+.wrapper
+{
+    width: 640px;
+    height: 100%;
+    flex: center;
+    margin: 0 auto;
+}
+.wrapper .hanzi-wrap
+{
+    width: 200px;
+}
+.wrapper .pics
+{
+    float:right;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+.wrapper .resume
+{
+    width: 200px;
+    text-align: left;
+}
+.wrapper .name
+{
+    color:burlywood;
+}
+.wrapper .head-desc
+{
+    color:darkolivegreen; 
+}
+.wrapper .resume h1
+{
+    background-color: blue;
+    color: white;
+}
+
+.edu-back ,.skill
+{
+    color: aqua;
+}
