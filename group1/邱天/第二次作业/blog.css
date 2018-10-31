@@ -1,6 +1,7 @@
 #rightcontent
 {
     float: right;
+    width: 60%;
     position: relative;
     right: 20px;
     
