@@ -1,0 +1,33 @@
+.shouhang ul li
+{
+    display: inline;
+}
+
+#biaoti
+{
+    color: brown;
+}
+
+#side ul li
+{ 
+    margin: 10px;
+    padding: 5px;
+    border: solid,rebeccapurple,3px;
+}
+
+#side ul li:hover
+{
+    color: brown;
+}
+
+#firstblock
+{ 
+    float:right;
+    width:300px;
+}
+
+#secondblock
+{
+    float: right;
+    width: 800th;
+}
