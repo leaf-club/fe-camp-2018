@@ -1,0 +1,109 @@
+html,body{
+    color: #000;
+    background: #fff;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    margin: 0px;
+    padding: 0px;
+}
+#hd_info{
+    background-color: brown;
+    line-height: 22px;
+    margin-left: 3px;
+    margin-right: 8px;
+    padding-right: 0px;
+}
+#cnts{
+    background-color: darkslategrey;
+    padding: 8px;
+    margin: auto;
+}
+#site_nav_top{
+    float: left;
+    color: #666;
+}
+#login_area{
+    font-size: 12px;
+    text-align: right;
+    height: 22px;
+    line-height: 22px;
+}
+#header{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#header_block{
+    background-color: burlywood;
+    border-left: 1px solid #d8dfea;
+    border-right: 1px solid #d8dfea;
+    height: 65px;
+}
+.clear{
+    clear: both;
+}
+#nav_menu{
+    background-color: #2b6695;
+    -moz-box-shadow:-3px 1px 3px rgba(0,0,0,.25);
+    -o-box-shadow:-3px 1px 3px rgba(0,0,0,.25);
+    -webkit-box-shadow:-3px 1px 3px rgba(0,0,0,.25);
+    box-shadow: -3px 2px 3px rgba(0,0,0,0.25);
+    background:-moz-linear-gradient(center top,#2b6695,#0e4773) repeat scroll 0 0 transparent;
+}
+#nav_menu{
+    color: #d8dfea;
+    margin: 8px 7px 0 10px;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+}
+#nav_menu a:link{
+    color: #eee;
+    text-decoration: aqua;
+}
+#main{
+    padding: 0%;
+    margin: 10px 320px 0 180px;
+}
+.post_nav_block_wrapper{
+    float: left;
+    height: 50;
+    border: 1px solid #fff;
+    border-bottom: #c8d3de 1px solid;
+    font-size: 14px;
+    line-height: 1.5em;
+    background-color: #fff;
+}
+.post_nav_block{
+    float: left;
+    margin-bottom: -1px;
+}
+.post_nav_block li{
+    float: left;
+    margin-left: 10px;
+    padding: 0;
+}
+#left_side{
+    background-color: cornflowerblue;
+    float: left;
+    width: 20%;
+}
+#right_side{
+    background-color: crimson;
+    float: right;
+    width: 20%;
+    margin: 0%;
+}
+#list1{
+    color: burlywood;
+}
+#list2{
+    background: darkgrey;
+}
+#foot{
+    border-block-end-color: darkmagenta;
+    text-align: center;
+}
