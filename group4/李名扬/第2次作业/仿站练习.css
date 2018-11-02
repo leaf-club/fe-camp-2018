@@ -1,0 +1,47 @@
+#login_area {
+	color:#5b5b5b;
+	font-size:12px;
+	overflow:hidden;
+	text-align:right;
+	height:22px;
+	line-height:22px
+}
+html,body {
+	color:#000;
+	background:#fff
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0
+}
+#main
+{
+   float: left;
+
+}
+#left_aside
+{
+    float:left;
+    background-color:#e0ffff;
+}
+#right_aside
+{
+    float:right;
+    background-color:#e0ffff;
+}
+li
+{
+    list-style-type: none;
+}
+#post
+{
+    margin-right:400px
+}
+#footer
+{
+    text-align: center;
+}
+#post_nav_block ul li
+{
+    display: inline;
+}
