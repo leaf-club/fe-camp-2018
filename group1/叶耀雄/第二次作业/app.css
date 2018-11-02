@@ -1,0 +1,106 @@
+#head {
+    background-color: rgba(252, 252, 252, 0.7); 
+    position: relative;
+    top: -297px;
+}
+#bgpic {
+    width: 100%;
+}
+#begin-menu {
+    float: left;
+}
+#mainintrod li {
+    display: inline-block;
+}
+#avatar {
+    height: 36px;
+    border-radius: 50%;
+    position: relative;
+    left: 730px;
+}
+.personal {
+    position: relative;
+    left: 860px;
+}
+#srch {
+    width: 300px;
+    position: relative;
+    top: -120px;
+    left: 76%;
+}
+#search {
+    width: 13px;
+}
+#menu li {
+    display: inline-block;
+}
+/*
+#App li {
+    display: inline-block;
+}
+#App {
+    width: 300px;
+    clear: both;
+    position: relative;
+    left: 780px;
+    top: -36px;
+}
+#trick {
+    position: relative;
+    left: 1000px;
+    top: -80px;
+}
+*/
+#choise li {
+    display: block;
+    border: 1px solid black;
+    background-color: rgb(242, 243, 243);
+}
+#right-guid {
+    
+    position: fixed;
+    left: 1400px;
+    top: 250px;
+}
+.part-title li {
+    display: inline-block;
+}
+.hot-show li {
+    display: inline-block;
+}
+
+.mv {
+    border: 1px solid rgb(179, 184, 184);
+    width: 400px;
+}
+.box {
+    display: inline-flex;
+    flex-wrap: wrap; 
+}
+.bottom li {
+    display: inline-block;
+}
+
+.mv1 {
+    width: 500px;
+    border: 1px solid rgb(179, 184, 184);
+}
+#max-mv {
+    width: 500px;
+}
+.rank {
+    width: 200px;
+    position: relative;
+    left: 1240px;
+    top: -650px;
+}
+#us {
+    float: left;
+}
+#compater {
+    display: flex;
+    flex-direction: row;
+}
+#foot {
+    background-color: rgb(213, 223, 220);
+}
