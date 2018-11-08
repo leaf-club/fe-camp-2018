@@ -30,6 +30,8 @@ body{
     background-color:white;
     margin-top: 5px;
     border-radius: 5px;
+    box-shadow: 4px 0px #e3e2e2;
+
 }
 
 .About a,.Portfolio a,.Blog a,.Contact a{
@@ -48,6 +50,7 @@ body{
     padding-left:30px;
     padding-top: 30px;
     padding-bottom: 100px;
+    box-shadow: 2px -2px #e3e2e2;
 }
 
 .Title
@@ -81,6 +84,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     margin-bottom: 10px;
+    box-shadow: -4px 0px #e3e2e2;
 }
 
 
@@ -93,6 +97,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     margin-bottom: 10px;
+    box-shadow: -4px 0px #e3e2e2;
 }
 
 .main .Main-course .Pro-info ul li,.main .Programing-skills ul li{
