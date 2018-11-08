@@ -1,0 +1,74 @@
+#rightcontent
+{
+    float: right;
+    width: 60%;
+    position: relative;
+    right: 20px;
+    
+}
+.personinfo
+{
+    padding: 10px 0px 20px 10px;
+    margin: 0px 20px 20px 0px;   
+}
+
+header .title
+{
+    margin: 10px;
+    padding: 20px 20px 20px 20px;
+    border: solid black;
+    background-color: rgb(22, 125, 143);
+    text-align: center;
+    font-size: 2em;
+    font-weight:bold;
+
+
+}
+
+#face
+{
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    padding: 20px;
+}
+
+a:hover
+{
+    color: aquamarine;
+}
+
+a:link
+{
+ color: blue;
+}
+
+.tags
+{
+    padding: 20px 50px 20px 10px;
+    margin: 10px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+nav ul li 
+{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+} 
+
+
+#name
+{
+    position: relative;
+    font-size: 2em;
+    font-weight: 400;
+    left: 30px;
+}
+
+#leftcontent{
+    background-color: aqua;
+    width: 300px;
+    height: 800px;
+}
