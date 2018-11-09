@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.background{
+    height: 800px;
+    background: url(img/resumebk.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.background .biaoti{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: 0px;
+    left: 42%;
+    color: indigo;
+    text-decoration: none;
+    background-color: aqua;
+    background-position: center;
+    text-align: center;
+}
+
+.background .xiaobiaoti{
+    position: relative;
+    font-weight: 600;
+    color: darkblue;
+    text-align: center;
+}
+
+.background .info{
+    position: relative;
+    color: blue;
+    text-align: center;
+}
+
+.background .baseinfo{
+    position: absolute;
+    top: 120px;
+    left: 4%;
+    width: 250px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.background .baseinfo .zhaopian{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.background .eduinfo{
+    position: absolute;
+    top: 120px;
+    left: 28%;
+    width: 250px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.background .practiceinfo{
+    position: absolute;
+    top: 120px;
+    left: 76%;
+    width: 250px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.background .projectinfo{
+    position: absolute;
+    top: 120px;
+    left: 52%;
+    width: 250px;
+    margin: 10px;
+    background-color: aqua;
+}
