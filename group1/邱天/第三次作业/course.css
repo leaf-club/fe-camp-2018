@@ -18,8 +18,9 @@ body{
     text-align: center;
     margin-top: 3px;
     margin-left: 3px;
-    padding-top: 1px;
+    padding-top: 20px;
     box-shadow: 1px 1px whitesmoke;
+    display: inline-block;
 }
 
 .content{
