@@ -1,0 +1,14 @@
+html
+.content{
+    height: 600px;
+    width: 400px;
+    background: url(QQ图片20181103144804.jpg) no-repeat;
+  }
+
+  .content {
+    position: relative;
+    top: 20%;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+  }
