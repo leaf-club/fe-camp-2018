@@ -53,3 +53,34 @@
 > 2. 如图片资源过多，可以使用网络图床，比如免费的七牛云存储。
 
 截止上交时间：2018年11月9日17:00。
+
+
+# 第4、5次作业
+
+1. 第三次作业没有完成的话继续完成上次作业
+
+2. 页面临摹，只需完成HTML+CSS静态页面即可，页面中如有轮播图，可直接不做，或放一张静态图片即可，建议选择后者。
+
+**说明:**
+
+一、需选择以下页面之一：
+
+1. 360导航首页，地址：https://hao.360.cn/
+2. QQ音乐-音乐馆-首页，地址：https://y.qq.com/
+3. QQ音乐-音乐馆-歌手，地址：https://y.qq.com/portal/singer_list.html
+4. QQ音乐-音乐馆-专辑，地址：https://y.qq.com/portal/album_lib.html
+5. QQ音乐-音乐馆-排行榜，地址：https://y.qq.com/n/yqq/toplist/4.html
+6. QQ音乐-音乐馆-分类歌单，地址：https://y.qq.com/portal/playlist.html
+7. QQ音乐-音乐馆-电台，地址：https://y.qq.com/portal/radio.html
+8. QQ音乐-音乐馆-MV：地址：https://y.qq.com/portal/mv_lib.html#t6=2
+9. QQ音乐-音乐馆-数字专辑，地址：https://y.qq.com/portal/album_mall.html
+10. 慕课网-首页，地址：http://www.imooc.com/
+11. 慕课网-免费课程，地址：http://www.imooc.com/course/list
+12. 慕课网-职业路径，地址：http://class.imooc.com/
+13. 慕课网-实战，地址：http://coding.imooc.com/
+
+二、设置页面CSS样式的时候可参考菜鸟教程相关知识点。
+
+三、禁止对页面直接使用`Ctrl + C` `Ctrl + V` `Ctrl + S` ，对于图片资源的爬取，可在图片上右键，然后 `图片另存为...` 的方式保存到本地使用。
+
+截止上交时间：2018年11月24日22:00。
