@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>实战课程_开发项目实战_编程项目实战-慕课网</title> 
+  <!-- https://coding.imooc.com/ -->
+
+  <style>
+    body{
+      background-color: #F0F0F0; ;
+    }
+    /* 第一块 */
+    #navigation{
+      background-color: #000000;
+      padding: 35px;
+      padding-top: 5px;
+      margin: 0;
+    }
+    #navigation_ul{   
+     margin:0;
+     padding:0;
+     
+    }
+    li.ul1{
+      float:left;
+      list-style-type:none;
+    }
+    li.ul2{
+      float: right;
+      list-style-type:none;
+    }
+    a.ul1,a.ul2{
+      display:block;
+    }
+    a.ul1:link,a.ul1:visited,a.ul2:link,a.ul2:visited{
+      display: block;    
+      padding: 5px;
+      color:rgba(255,255,255,.6);
+      background-color:rgba(0,0,0,1);
+      text-align: center;
+      text-decoration: none;     
+    }
+    a.ul1:hover,a.ul1:active,a.ul2:hover,a.ul2:active{
+      color:rgba(255,255,255,1);
+      background-color:rgba(0,0,0,0.7);
+    }
+    #ul2_post:link,#ul2_login:link, #ul2_post:visited, #ul2_login:visited{
+      color:rgba(255,255,255,1);
+    }
+    #ul2_post:hover,#ul2_login:hover, #ul2_post:active, #ul2_login:active{
+      color:rgba(255,0,0,1);
+      background-color:rgba(0,0,0,1);
+    }
+
+    /* 第二块 */
+    #header{
+      background-color: rgba(0, 0, 0, 1);
+    }
+    #search{
+      float: right;
+      position: relative;
+      right: 80px;
+      top: 10px;
+    }
+    #search_p{
+      color: rgba(255,255,255,.6);
+    }
+    input[placeholder="搜索感兴趣的实战课程内容"]{
+      width: 400px;
+      height: 40px;
+    }
+    .search:link,.search:visited{
+      color: rgba(255,255,255,.6);
+      text-decoration: none;
+    }
+    .search:hover,.search:active{
+      color: rgba(255,255,255,1);
+    }
+    .search{
+      font-size: 0.8em;
+    }
+    .search_img{
+      position: relative;
+      left: 60px;
+    }
+
+    /* 身体第一块 */
+    #body1{
+      display: flex;
+      justify-content: space-around;
+      font-weight: bold;
+      margin: 20px;
+    }
+    .body1{
+      text-decoration: none;
+    }
+    .body1:link,.body1:visited{
+      color: rgba(0, 0, 0, 1);
+    }
+    .body1:hover,.body1:active{
+      color: rgba(255, 0, 0, 1);
+    }
+    #all:link,#all:visited{
+      color: rgba(255, 0, 0, 1);
+    }
+
+    /* 身体第二块 */
+    #body2{
+      display: block;
+      margin: 20px;
+      background-color: #F0F0F0;   
+    }
+    .link,.line3{
+      text-decoration: none;
+    }
+    .link:link,.link:visited{
+      color: rgb(78, 77, 77); 
+    }
+    .link:hover,.link:active{
+      background-color: #D4D4D4;  
+    }
+    #line1,#line2{
+      display: flex;
+      justify-content: space-around;
+    }
+    .line3{
+      display: inline-block;
+      padding: 10px;
+    }
+    .line3:link,.line3:visited{
+      color: rgb(78, 77, 77); 
+    }
+    .line3:hover,.line3:active{
+      color: rgb(0,0,0);
+    }
+    #default{
+      padding: 4px;
+      background-color: rgb(104, 103, 103);
+      text-decoration: none;
+      color: rgb(255,255,255) ;
+    }
+    #unlimited{
+      background-color: rgb(44, 44, 44);
+      color: rgb(255,255,255);
+    }
+    
+    .a{
+      text-decoration: none;
+    }
+    #a2{
+      position: absolute;
+      left: 26%;
+      top: 42%;
+    }
+    #a3{
+      position: absolute;
+      left: 50%;
+      top: 42%;
+    }
+    #a4{
+      position: absolute;
+      left: 74%;
+      top: 42%;
+    }
+    p.a{
+      color: rgb(0,0,0);
+    }
+
+    div.page{
+      text-align: center;
+    }
+    div.page>a{
+      text-decoration: none;
+      color: rgb(78, 77, 77); 
+    }
+    #page1{
+      background-color: rgb(104, 103, 103);
+      color: rgb(255,255,255);
+    }
+    a.page:hover,a.page:active{
+      background-color: rgb(172, 172, 172);
+    }
+
+    /* footer */
+    div.footer{
+      background-color: #000000;
+      padding: 35px;
+      padding-top: 5px;
+      margin: 0;
+    }
+    ul.footer{
+      margin: 0;
+      padding: 0;
+    }
+    li.footer{
+      float: left;
+      list-style-type:none;
+    }
+    a.footer{
+      display: block;
+    }
+    a.footer:link,a.footer:visited{
+      display: block;    
+      padding: 5px;
+      color:rgba(255,255,255,0.6);
+      background-color:rgba(0,0,0,1);
+      text-align: center;
+      text-decoration: none;     
+    }
+    a.footer:hover,a.footer:active{
+      color:rgba(255,255,255,1);
+    }
+  </style>
+</head>
+<body>
+  <div id="navigation">
+    <ul id="navigation_ul">
+      <li class="ul1"><a href="#" class="ul1">慕课网首页</a></li>
+      <li class="ul1"><a href="#" class="ul1">免费课程</a></li>
+      <li class="ul1"><a href="#" class="ul1">实战课程</a></li>
+      <li class="ul1"><a href="#" class="ul1">就业班</a></li>
+      <li class="ul1"><a href="#" class="ul1">猿问</a></li>
+      <li class="ul1"><a href="#" class="ul1">手记</a></li>
+      <li class="ul1"><a href="#" class="ul1">猿聘</a></li>
+      
+      <li class="ul2"><a href="#" class="ul2" id="ul2_post">注册</a></li>
+      <li class="ul2"><a href="#" class="ul2" id="ul2_login">登录</a></li>
+      <li class="ul2"><a href="#" class="ul2">购物车</a></li>
+      <li class="ul2"><a href="#" class="ul2">下载app</a></li>
+    </ul>
+  </div>
+
+  <div id="header">
+    <a href="#"><img src="header-icon1.png" alt="实战课程" class="search_img"></a>
+    <img src="header-icon2.png" alt="战以学，学为战" class="search_img">
+    <div id="search">
+      <input type="text" placeholder="搜索感兴趣的实战课程内容">
+      <input type="button" value="查找">
+      <p id="search_p"><span class="search">热搜：</span>
+      <a href="#" class="search">React,js</a>
+      <a href="#" class="search">面试</a>
+      <a href="#" class="search">算法</a>
+      <a href="#" class="search">Vue.js</a>
+      <a href="#" class="search">Python</a>
+      <a href="#" class="search">人工智能</a>
+      <a href="#" class="search">GO语言</a>
+      <a href="#" class="search"小程序></a></p>
+    </div>
+  </div>
+
+  <div id="body1">
+    <a href="#" class="body1" id="all">全部</a>
+    <a href="#" class="body1">前沿技术</a>
+    <a href="#" class="body1">前端开发</a>
+    <a href="#" class="body1">后端开发</a>
+    <a href="#" class="body1">移动开发</a>
+    <a href="#" class="body1">算术&数学</a>
+    <a href="#" class="body1">云计算&大数据</a>
+    <a href="#" class="body1">运维&测试</a>
+    <a href="#" class="body1">数据库</a>
+    <a href="#" class="body1">UI设计&多媒体</a>
+  </div>
+
+  <div id="body2">
+    <div id="line1">
+      <a href="" class="link" id="unlimited">不限</a>
+      <a href="" class="link">Swoole</a>
+      <a href="" class="link">微服务</a>
+      <a href="" class="link">区块链</a>
+      <a href="" class="link">超级账本</a>
+      <a href="" class="link">机器学习</a>
+      <a href="" class="link">深度学习</a>
+      <a href="" class="link">计算机视觉</a>
+      <a href="" class="link">自然语言处理</a>
+      <a href="" class="link">数据分析&挖掘</a>
+      <a href="" class="link">小程序</a>
+    </div>
+    <div id="line2">
+      <a href="" class="link">HTML/CSS</a>
+      <a href="" class="link">JavaScript</a>
+      <a href="" class="link">Vue.js</a>
+      <a href="" class="link">React.JS</a>
+      <a href="" class="link">Angular</a>
+      <a href="" class="link">Node.js</a>
+      <a href="" class="link">jQuery</a>
+      <a href="" class="link">WebApp</a>
+      <a href="" class="link">前端工具</a>
+      <a href="" class="link">Java</a>
+      <a href="" class="link">SpringBoot</a>
+    </div>
+    <hr>
+    <div id="line3">
+      <a href="" id="default">默认排序</a>
+      <a href="" class="line3">最新</a>
+      <a href="" class="line3">销量</a>
+      <a href="" class="line3">评价</a>
+    </div>
+    <div>
+      <a href="" class="a" id="a1">
+        <div>
+          <img src="1.jpg" alt="">
+          <p class="a">Vue.js 2.5 + cube-ui 重构饿了么 App</p>
+        </div>
+      </a>
+      <a href="" class="a"  id="a2">
+        <div>
+          <img src="2.jpg" alt="">
+          <p class="a">高等数学-学习算法/人工智能/大数据的第一步</p>
+        </div>
+      </a>
+      <a href="" class="a" id="a3">
+        <div>
+          <img src="3.jpg" alt="">
+          <p class="a">Spring Cloud微服务实战</p>
+        </div>
+      </a>
+      <a href="" class="a" id="a4">
+        <div>
+          <img src="4.jpg" alt="">
+          <p class="a">全网最热Python3入门+进阶 更快上手实际开发</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="page">
+      <a href="#">首页</a>
+      <a href="#">上一页</a>
+      <a href="#" id="page1">1</a>
+      <a href="#" class="page">2</a>
+      <a href="#" class="page">3</a>
+      <a href="#" class="page">4</a>
+      <a href="#" class="page">5</a>
+      <a href="#" class="page">下一页</a>
+      <a href="#" class="page">尾页</a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div id="footer">
+    <div class="footer">
+      <ul class="footer">
+        <li class="footer"><a href="" class="footer">网站首页</a></li>
+        <li class="footer"><a href="" class="footer">企业合作</a></li>
+        <li class="footer"><a href="" class="footer">人才招聘</a></li>
+        <li class="footer"><a href="" class="footer">联系我们</a></li>
+        <li class="footer"><a href="" class="footer">讲师招聘</a></li>
+        <li class="footer"><a href="" class="footer">帮助中心</a></li>
+        <li class="footer"><a href="" class="footer">意见反馈</a></li>
+        <li class="footer"><a href="" class="footer">慕课大学</a></li>
+        <li class="footer"><a href="" class="footer">友情链接</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
