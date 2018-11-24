@@ -1,0 +1,472 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #31c27c;
+}
+
+.header{
+    font-size: 18px;
+}
+
+.header .headerImage
+{
+    float: left;
+    padding: 20px;
+}
+
+.header .headerNav .headerNavUl .headerNavList,.signIn ,.headerMakeVip
+{
+    display: inline-block;
+    height: 46px;
+    width: 100px;
+    float: left;
+    line-height: 90px;
+    padding: 0 20px;
+    height: 90px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.header .headerNav .headerNavUl .headerNavList :active
+{
+    background-color: #31c27c;
+    color: white;
+}
+
+
+
+.headerMakeVip{
+
+font-size: 0.8em;
+clear: right;
+width: 156px;
+
+}
+
+.nav .navUl .navList{
+
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+
+}
+
+/* 标题 */
+.commandSongs .commandSongsHeader,
+.greatCommand .greatCommandHeader,
+.newSongs .newSongsHeader,
+.newList .newListHeader,
+.leaderList .leaderListHaeder,
+.mvList .mvListHeader
+{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+    height: 60px;
+    background-color: #f3f3f3;
+    padding-top: 20px;
+    clear: both;
+}
+/* 标题下的目录 */
+.commandSongs .commandSongsNav .commandSongsNavUl .commandSongsNavList,
+.newSongs .newSongsNav .newSongsNavUl .newSongsNavList,
+.newList .newListNav .newListNavUl .newListNavList,
+.mvList .mvListNav .mvListNavli
+{
+    display: inline-block;
+    height:60px;
+    width: 120px;
+    text-align: center;
+}
+
+/* 第一个标题下的目录 */
+#commandSongsNavList1,
+#newSongsNavList1,
+#newListNav1,
+#MVlist1
+{
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left:80px;
+}
+
+
+
+.commandSongs .commandSongsContent .commandSongsContentList
+{
+    float: left;
+    width: 248px;
+}
+
+.commandSongs .commandSongsContent .commandSongsContentList a img
+{
+    display: inline-block;
+}
+
+.commandSongs .commandSongsContent .commandSongsContentList .commandListContent
+{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
+.commandSongs .commandSongsContent .commandSongsContentList .commandSongsReaders
+{
+    width:100px;
+    font-size: 0.9em;
+    font-weight: 300;
+    display: inline-block;
+}
+
+
+
+.newSongs .newSongsContent .newSongsContentList
+{
+    height: 120px;
+    width: 400px;
+    float: left;
+}
+
+.newSongs .newSongsContent .newSongsContentList .newSongsName
+{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.newSongs .newSongsContent .newSongsContentList .newSongsAuthor
+{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    bottom: 70px;
+    left: 125px;
+    font-size: 0.8em;
+    font-weight: 400;
+   
+}
+
+.newSongs .newSongsContent .newSongsContentList .newSongsTime
+{
+    display: inline-block;
+    position: relative;
+    bottom: 85px;
+    left: 120px;
+    font-size: 0.6em;
+    font-weight: 300;
+}
+
+
+
+
+.greatCommand .greatCommandContent .greatCommandContentList
+{
+    width: 600px;
+    float: left;
+    margin: 0px 10px;
+
+}
+
+
+.newList .newListContent .newListContentList
+{
+    width: 220px;
+    height: 280px;
+    float: left;
+    position: relative;
+    left: 80px;
+}
+
+.newList .newListContent .newListContentList .newListName
+{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    font-size: 0.9em;
+    font-weight: 350;
+}
+
+.newList .newListContent .newListContentList .newListAuthor
+{
+    display:inline-block;
+    font-size: 0.9em;
+    font-weight: 120;
+}
+
+
+/* 排行榜 */
+.leaderList .leaderListContent .leaderListContentList
+{
+    width: 220px;
+    height: 500px;
+    float: left;
+    margin: 0px 10px;
+    padding: 20px 0;
+   
+}
+
+/* 排行榜各个颜色 */
+.leaderList .leaderListContent .leaderList1
+{
+    background-color: #cf718c;
+}
+.leaderList .leaderListContent .leaderList2
+{
+     background-color: #6d96b1;
+}
+.leaderList .leaderListContent .leaderList3
+{
+    background-color: #6dbfb3;
+}
+.leaderList .leaderListContent .leaderList4
+{
+    background-color: #518e93;
+}
+.leaderList .leaderListContent .leaderList5
+{
+    background-color: #f0a772;
+}
+
+/* 排行榜头 */
+.leaderList .leaderListContent .leaderListContentList .leaderListHeader
+{
+    font-size: 1.2em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+/* 排行榜名字 */
+.leaderList .leaderListContent .leaderListContentList .leaderListName
+{
+    display: block;
+    font-size: 1.8em;
+    font-weight: 500;
+    color: white;
+    bottom: 15px;
+    text-align:center;
+
+}
+
+/* 排行榜横线 */
+.leaderList .leaderListContent .leaderListContentList .leaderLine
+{
+    width: 50px;
+    color: white;
+    text-align: center;
+} 
+
+/* 排行榜序号 */
+.leaderList .leaderListContent .leaderListContentList .leaderListNumber
+{
+    width: 2px;
+    height: 10px;
+    position: relative;
+    top:30px;
+    left: 20px;
+    color: white;
+
+}
+
+/* 歌曲名 */
+.leaderList .leaderListContent .leaderListContentList .leaderListSongsName
+{
+    display: inline-block;
+    height: 20px;
+    width: 200px;
+    margin: 3px 40px;
+    color: white;
+    font-size: 0.9em;
+}
+
+/* 歌曲作者 */
+.leaderList .leaderListContent .leaderListContentList .leaderListSongsAuthor
+{
+    display: inline-block;
+    height: 20px;
+    width: 200px;
+    margin: 3px 40px;
+    color: white;
+    font-size: 0.9em;
+}
+
+
+/* MV列表 */
+.mvList .mvListContent .mvListContentList
+{
+    display: inline-block;
+    float: left;
+    width: 220px;
+    height: 200px;
+    margin:  5px;
+    position: relative;
+    left: 60px;
+
+}
+
+/* mv名字 */
+ 
+.mvList .mvListContent .mvListContentList .mvName
+{
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+/* mv作者 */
+.mvList .mvListContent .mvListContentList .mvAuthor
+{
+    font-size: 0.9em;
+    font-weight: 200;
+}
+
+/* MV播放次数 */
+.mvList .mvListContent .mvListContentList .mvTime
+{
+    font-size: 0.8em;
+    font-weight: 200;
+}
+
+
+
+
+/* 页面尾部 */
+.footer
+{
+    height:600px;
+
+    display: inline-block;
+    background-color: #333333;
+    color: #7f7f7f;
+}
+
+
+
+.footer .downLoad,.footer .greatGoods,.footer .corporateLink,.footer .openPlatform
+{
+    float: left;
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* 下载客户端界面 */
+.footer .downLoad .downLoadList a
+{
+    color: #7f7f7f;
+    float: left;
+    width: 100px;
+    margin: 30px;
+}
+
+/* 特色产品 */
+
+
+.footer .greatGoods .greatGoodsList a{
+    color: #7f7f7f;
+    float: left;
+    margin: 30px;
+}
+
+
+/* 合作链接 */
+
+.footer .corporateLink .corporateLinkHeader
+{   
+    clear: right;
+}
+
+.footer .corporateLink .corporateLinkList
+{
+    display: inline-block;
+    left: 20;
+    float: left;
+    width: 130px;
+    margin-bottom: 8px;
+    position: relative;
+    top:30px;
+}
+
+.footer .corporateLink .corporateLinkList a
+{
+    color: #7f7f7f;
+}
+
+/* 开放平台 */
+
+
+.footer  .openPlatform .openPlatformList a
+{
+    color: #7f7f7f;
+    float: left;
+    margin: 30px;
+}
+
+
+
+
+/* 关于腾讯 */
+.footer .footerFoot 
+{
+    display: inline-block;
+    position: relative;
+    right: 200px;
+    top: 200px;
+
+}
+
+
+.footer .footerFoot .footerFootList 
+{
+    display: inline-block;
+}
+
+.footer .footerFoot .footerFootList a{
+    color: #7f7f7f;
+    font-size: 0.6em;
+    font-weight: 400;
+
+}   
+
+.footer .footerFoot .declareTime
+{
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: 400;
+
+}
+
+.footer .footerFoot .declareTime a
+{
+    color: #7f7f7f;
+    font-size: 0.6em;
+    font-weight: 400;
+
+}
+
+.footer .footerFoot .tencnt
+{
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: 400;
+}
+
+.footer .footerFoot .tencnt a
+{
+    color: #7f7f7f;
+    font-size: 0.6em;
+    font-weight: 400;
+    
+}
