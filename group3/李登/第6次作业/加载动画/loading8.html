@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    @keyframes change{
+      from{
+        opacity: 1;
+      }
+      to{
+        opacity: 0.1;
+      }
+    }
+   .circle{
+     opacity: 0.1;
+     display: block;
+     width: 60px;
+     height: 20px;
+     position: absolute;
+     left: 300px;
+     top: 200px;
+     transform-origin: 100px 10px;
+     border-top-left-radius: 8px;
+     border-bottom-left-radius: 8px;
+     background-color: aquamarine;
+     animation: change 0.8s linear infinite; 
+   }
+   .first{
+     transform: rotate(0deg);
+     animation-delay: 0s;
+   }
+   .second{
+    transform: rotate(45deg);
+    animation-delay: 0.1s;
+   }
+   .third{
+    transform: rotate(90deg);
+    animation-delay: 0.2s;
+   }
+   .fourth{
+    transform: rotate(135deg);
+    animation-delay: 0.3s;
+   }
+   .fifth{
+    transform: rotate(180deg);
+    animation-delay: 0.4s;
+   }
+   .sixth{
+    transform: rotate(225deg);
+    animation-delay: 0.5s;
+   }
+   .seventh{
+    transform: rotate(270deg);
+    animation-delay: 0.6s;
+   }
+   .eighth{
+    transform: rotate(315deg);
+    animation-delay: 0.7s;
+   }
+
+  </style>
+</head>
+<body>
+  <div  class="whole">
+    <div class="first circle"></div>
+    <div class="second circle"></div>
+    <div class="third circle"></div>
+    <div class="fourth circle"></div>
+    <div class="fifth circle"></div>
+    <div class="sixth circle"></div>
+    <div class="seventh circle"></div>
+    <div class="eighth circle"></div>
+  </div>
+</body>
+</html>

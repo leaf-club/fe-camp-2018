@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    @keyframes change{
+      from{
+        opacity: 1;
+      }
+      20%{
+        opacity: .8;
+      }
+      40%{
+        opacity: .6;
+      }
+      60%{
+        opacity: .4;
+      }
+      80%{
+        opacity: .2;
+      }
+      to{
+        opacity: 0;
+      }
+    }
+
+    .whole{
+      position: relative;
+      top: 100px;
+      text-align: center;
+    }
+    .circle{
+      opacity: 0;
+      display: inline-block;
+      background-color: aquamarine;
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+      border-radius: 50%;
+      animation: change 1.5s linear infinite;
+    }
+    .first{
+      animation-delay: 0;
+    }
+    .second{
+      animation-delay: 0.25s;
+    }
+    .third{
+      animation-delay: 0.5s;
+    }
+    .fourth{
+      animation-delay: 0.75s;
+    }
+    .fifth{
+      animation-delay: 1s;
+    }
+  </style>
+</head>
+<body>
+  <div class="whole">
+    <div class="circle first"></div>
+    <div class="circle second"></div>
+    <div class="circle third"></div>
+    <div class="circle fourth"></div>
+    <div class="circle fifth"></div>
+  </div>
+</body>
+</html>

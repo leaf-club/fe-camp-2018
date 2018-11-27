@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    @keyframes change{
+      from{
+        width: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      96%{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      to{
+        width: 400px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+    }
+  .whole{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -200px;
+    display: block;
+    padding: 0;
+    border-radius: 15px;
+    background-color: aqua;
+    height: 30px;
+    width: 400px;
+  }
+  .box{
+    display: block;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: lightblue;
+    width: 100px;
+    height: 30px;
+    animation: change 6s linear infinite;
+  }
+  </style>
+</head>
+<body>
+  <div class="whole">
+    <div class="box"></div>
+  </div>
+</body>
+</html>
