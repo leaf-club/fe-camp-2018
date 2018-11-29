@@ -1,0 +1,131 @@
+body{
+    background-color: #32363b;
+    font-size: normal;
+    font-weight: 600px;
+}
+
+.person-contact{
+    float: left; 
+    height: 1100px;
+}
+
+.person-contact .sign-words{
+    height: 100px;
+    width: 150px;
+    background-color: #c75454;
+    color: white;
+}
+.person-contact .sign-words .myName{
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 1.5em; 
+    font-weight: 800;
+}
+.person-contact .sign-words .intro{
+    font-size: 0.8em;
+}
+
+.About,.Portfolio,.Blog,.Contact{
+    width: 150px;
+    background-color:white;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 0px #e3e2e2;
+
+}
+
+.About a,.Portfolio a,.Blog a,.Contact a{
+    float: right;
+    text-decoration: none;
+    margin: 8px;
+    color:black;
+    font-weight: lighter;
+}
+
+.main{
+    background-color: #fff;
+    float: left;
+    width:800px;
+    margin-left: 10px;
+    padding-left:30px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    box-shadow: 2px -2px #e3e2e2;
+}
+
+.Title
+{
+    color:#c75454;  
+    font-size: 1.5em;
+}
+.info{
+    font-weight: light;
+}
+.info-text{
+    font-weight: 800;
+    margin-right: 8px;
+}
+
+.main .About-me .Title{
+    margin-bottom: 20px;
+}
+
+.main .About-me .quote{
+    font-size: 0.8em;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.main .info .Name,.main .info .Location,.main .info .Phone{
+    float: left;
+    width: 300px;
+    height: 40px;
+    background-color:#efefef;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: -4px 0px #e3e2e2;
+}
+
+
+.main .info .Date-of-birth,.main .info .Email,.main .info .website{
+    float: right;
+    width: 300px;
+    height: 40px;
+    background-color:#efefef;
+    margin-right: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: -4px 0px #e3e2e2;
+}
+
+.main .Main-course .Pro-info ul li,.main .Programing-skills ul li{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.Experience .Ex-info .ex-list .ex-item .ex-title,.Education .Ed-info .ed-title{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Experience .Ex-info .ex-list .ex-item .ex-time,.Education .Ed-info .ed-time{
+    margin-bottom: 3px;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
