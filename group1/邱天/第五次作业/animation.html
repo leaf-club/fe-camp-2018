@@ -4,252 +4,276 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>animation</title>
+
 
     <style>
-        @keyframes image1
-        {
-            0%{
-                background-position: 2px 0px;
-            }
-            50%{
-                background-position: 100px 0px;
-            }
-
-            100%
-            {
-                background-position:  200px 0px;
-            }
-        }
-        #img1{
-            zoom: 1;
-            width: 100px;
-            height: 150px;
-            margin: 0px;
-            padding: 0px;
-            background-image: url("image/loading1.gif");
-            position: -2px 0px;
-            animation:image1  2s infinite;
-            
-        }
 
 
-
-
-        @keyframes image2
-        {
-            0%{
-                background-position: 2px 0px;
-            }
-            50%{
-                background-position: 100px 0px;
-            }
-
-            100%
-            {
-                background-position: 200px 0px;
-            }
-        }
-         #img2{
-            zoom: 1;
-            width:100px;
+        .animation1{
+            display: flex;
             height: 100px;
-            background-image: url("image/loading2.gif");
-            position: 2px 0px;
-            animation:image2   10s infinite;
-            
-            
+            width: 400px;
+        }
+        .line1,.line2,.line3,.line4,.line5
+        {
+            background-color:lightblue;
+            width: 7px;
+            margin: 5px;
+            height: 50px;
+            display: inline-block;
+
+            align-items: flex-end;
+
+            border-radius: 20%;
         }
 
+        @keyframes cartoon1_1{
+            0%{
+                height: 25px;
+                background-color: aqua;
+            }
+
+            20%{
+                height: 50px;
+                background-color: lightblue;
+            }
+
+            40%{
+                height: 45px;
+                background-color:lightblue;
+            }
+
+            60%{
+                height: 38px;
+                background-color: lightblue;
+            }
+
+            80%{
+                height: 25px;
+                background-color: aqua;
+            }
+
+            100%{
+                height: 25px;
+                background-color: aqua;
+            }
+        }
+
+        @keyframes cartoon1_2{
+           0%{
+                height: 25px;
+                background-color: aqua;
+           } 
+
+           20%{
+               height: 25px;
+               background-color: aqua;
+           }
+           40%{
+                height: 50px;
+                background-color: lightblue;
+           }
 
 
-         @keyframes image3
+           60%{
+                height: 45px;
+                background-color:lightblue;
+           }
+
+           80%{
+                height: 38px;
+                background-color: lightblue;
+           }
+
+           100%{
+                height: 25px;
+                background-color: aqua;
+            }
+        }
+
+        @keyframes cartoon1_3{
+            0%{
+                height: 38px;
+                background-color:lightblue;
+            }
+
+            20%{
+                height: 25px;
+                background-color: aqua;
+            }
+            40%{
+                height: 25px;
+                background-color: aqua;
+            }
+
+
+            60%{
+                height: 50px;
+                background-color: lightblue;
+            }
+
+            80%{
+                height: 45px;
+                background-color:lightblue;
+            }
+
+            100%{
+                height: 38px;
+                background-color: lightblue;
+           }
+        }
+
+        @keyframes cartoon1_4
         {
             0%{
-                background-position: 2px 0px;
+                height: 45px;
+                background-color: lightblue;
             }
-            50%{
-                background-position: 100px 0;
+            20%{
+                height: 38px;
+                background-color: lightblue;
+            }
+            40%{
+                height: 25px;
+                background-color: aqua;
             }
 
-            100%
-            {
-                background-position:  200px 0;
+
+            60%{
+                height: 25px;
+                background-color: aqua;
+            }
+
+
+            80%{
+                height: 50px;
+                background-color: lightblue;
+            }
+
+            100%{
+                height: 45px;
+                background-color:lightblue;
             }
         }
-        #img3{
-            zoom: 1;
-            width: 200px;
-            height: 200px;
-            background-image: url("image/loading3.gif");
-            position: 2px 0px;
-            animation:image3  5s infinite;
-        }
 
-
-
-                @keyframes image4
+        @keyframes cartoon1_5
         {
             0%{
-                background-position: 2px 0px;
+                height: 50px;
+                background-color:lightblue;
             }
-            50%{
-                background-position: 90px 0;
+            20%{
+                height: 45px;
+                background-color:lightblue;
+            }
+            40%{
+                height: 38px;
+                background-color: lightblue;
             }
 
-            100%
-            {
-                background-position:  178px 0;
+            60%{
+                height: 25px;
+                background-color: aqua;
+            }
+
+            80%{
+                height: 25px;
+                background-color: aqua;
+            }
+
+            100%{
+                height: 50px;
+                background-color: lightblue;
             }
         }
-        #img4{
-            zoom: 1;
-            width: 200px;
-            height: 200px;
-            background-image: url("image/loading4.gif");
-            position: 2px 0px;
-            animation:image4  5s infinite;
+
+         .animation1 .line1{
+            animation: cartoon1_1 3s infinite;
+        }
+
+        .animation1 .line2{
+            animation: cartoon1_2 3s infinite;
+        }
+        .animation1 .line3{
+            animation: cartoon1_3 3s infinite;
+        }
+        .animation1 .line4{
+            animation: cartoon1_4 3s infinite;
+        }
+        .animation1 .line5{
+            animation: cartoon1_5 3s infinite;
         }
 
 
-        @keyframes image5
-        {
+
+        .animation2{
+            height: 100px;
+            width: 800px;
+        }
+
+        .animation2 .ball1,.animation2 .ball2,.animation2 .ball3,.animation2 .ball4{
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+        }
+        .animation2 .ball1{
+
+            background-color:#3954ea;
+        }
+        .animation2 .ball2{
+
+            background-color:#7b8ce8;
+        }
+
+        .animation2 .ball3{
+
+            background-color: #bac3f3;
+        }
+        .animation2 .ball4{
+
+            background-color: #d4daf7;
+        }
+        
+        @keyframes cartton2{
             0%{
-                background-position: 0px 0px;
+                transform: translateX(0px);
             }
-            50%{
-                background-position: 0px 0;
-            }
-
-            100%
-            {
-                background-position:  0px 0;
+            100%{
+                transform: translateX(600px)
             }
         }
 
-        #img5{
-            zoom: 1;
-            width: 200px;
-            height: 200px;
-            background-image: url("image/loading5.gif");
-            position: -2px 0px;
-            animation:image5 steps(1,end) 5s infinite;
+        .animation2_1{
+            animation: cartton2 linear 2s infinite;
         }
 
 
 
-
-        @keyframes image6
-        {
-            0%{
-                background-position: 0px 0px;
-            }
-            50%{
-                background-position: 0px 0;
-            }
-
-            100%
-            {
-                background-position:  0px 0;
-            }
-        }
-        #img6{
-            zoom: 1;
-            width: 200px;
-            height: 200px;
-            background-image: url("image/loading6.gif");
-            position: -2px 0px;
-            animation:image6 steps(1,end) 5s infinite;
-        } 
-
-
-
-
-               @keyframes image7 
-        {
-            0%{
-                background-position: 0px 0px;
-            }
-            50%{
-                background-position: 0px 0;
-            }
-
-            100%
-            {
-                background-position:  0px 0;
-            }
-        }
-        #img7{
-            zoom: 1;
-            width: 200px;
-            height: 200px;
-            background-image: url("image/loading7.gif");
-            position: -2px 0px;
-            animation:image7 steps(1,end) 5s infinite;
-        }
-
-
-        @keyframes image8
-        {
-            0%{
-                background-position: 0px 0px;
-            }
-            50%{
-                background-position: 0px 0;
-            }
-
-            100%
-            {
-                background-position:  0px 0;
-            }
-        }
-        #img8{
-            zoom: 1;
-            width: 200px;
-            height: 200px;
-            background-image: url("image/loading8.gif");
-            position: -2px 0px;
-            animation:image8 steps(1,end) 5s infinite;
-        }
-
-
-
-        @keyframes image9
-        {
-            0%{
-                background-position: 0px 0px;
-            }
-            50%{
-                background-position: 0px 0;
-            }
-
-            100%
-            {
-                background-position:  0px 0;
-            }
-        }
-        #img9{
-            zoom: 1;
-            width: 200px;
-            height: 200px;
-            background-image: url("image/loading9.gif");
-            position: -2px 0px;
-            animation:image9 steps(1,end) 5s infinite;
-        }   
+        
     </style>
 </head>
 <body>
-    <div id="img1"></div>
-    <div id="img2"></div>
-    <div id="img3"></div>
-    <div id="img4"></div>
-    <div id="img5"></div>
-    <div id="img6"></div>
-    <div id="img7"></div>
-    <div id="img8"></div>
-    <div id="img9"></div>
+    <div class="animation1">
+        <ul >
+            <li class="line1"></li>
+            <li class="line2"></li>
+            <li class="line3"></li>
+            <li class="line4"></li>
+            <li class="line5"></li>
+        </ul>
+    </div>
 
 
-
+    <div class="animation2">
+        <ul class="animation2_1">
+            <li class="ball4"></li>
+            <li class="ball3"></li>
+            <li class="ball2"></li>
+            <li class="ball1"></li>
+        </ul>
+    </div>
+    .
 </body>
 </html>
