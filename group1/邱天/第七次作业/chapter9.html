@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript"> 
+  
+        function init()
+        {
+            changeTheColor();
+            leave();
+
+        }
+
+        window.onload=init;
+                    
+       // 鼠标移动改变背景,可以通过给每行绑定鼠标移上事件和鼠标移除事件来改变所在行背景色。
+           
+          function changeTheColor()
+          {
+            var oObj = event.srcElement;  
+            if(oObj.tagName.toLowerCase() == "td"){     
+            var oTr = oObj.parentNode;  
+            if(!oTr.tag) oTr.style.backgroundColor = "#E1E9FD";  
+          }
+       
+          
+       }
+
+       function leave()
+       {
+        var oObj = event.srcElement;  
+        if(oObj.tagName.toLowerCase() == "td"){  
+        var oTr = oObj.parentNode;  
+        if(!oTr.tag) oTr.style.backgroundColor = "";  
+    }  
+       }
+       
+        // 编写一个函数，供添加按钮调用，动态在表格的最后一行添加子节点；
+       function addOne()
+       {
+           var table1=document.getElementById("table");
+           var newNode=document.createElement("tr");
+           table1.appendChild(newNode);
+       }
+              
+          
+       // 创建删除函数
+       
+       function delect(obj)
+       {
+        var theRow=obj.parentNode.parentNode;
+        theRow.parentNode.removeChild(theRow);
+       }
+  
+    </script> 
+
+</head>
+<body>
+    <table border="1" width="50%" id="table">
+        <tr class="row1" onmouseover="changeTheColor()" onmouseout="leave()">
+         <th>学号</th>
+         <th>姓名</th>
+         <th>操作</th>
+        </tr>  
+ 
+        <tr class="row2" onmouseover="changeTheColor()" onmouseout="leave()"> 
+         <td>xh001</td>
+         <td>王小明</td>
+         <td><a href="javascript:;" onclick="delect(this)">删除</a></td>   <!--在删除按钮上添加点击事件  -->
+        </tr>
+ 
+        <tr class="row3" onmouseover="changeTheColor()" onmouseout="leave()">
+         <td>xh002</td>
+         <td>刘小芳</td>
+         <td><a href="javascript:;" onclick="delect(this)">删除</a></td>   <!--在删除按钮上添加点击事件  -->
+        </tr>  
+ 
+        </table>
+        <input type="button" value="添加一行"  onclick="addOne()">   <!--在添加按钮上添加点击事件  -->
+</body>
+</html>
