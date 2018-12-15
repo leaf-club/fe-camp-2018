@@ -1,0 +1,48 @@
+body
+{
+  
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.person-contact{
+    display: block;
+    width: 100%;
+    float: none;
+}
+
+.person-contact .sign-words{
+    width: 100%;
+    text-align: center;
+    height: 70px;
+}
+
+.About,.Portfolio,.Blog,.Contact{
+    width: 100%;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 4px 0px #e3e2e2;
+
+}
+
+
+.About a,.Portfolio a,.Blog a,.Contact a{
+    text-decoration: none;
+    margin: 8px;
+    color:black;
+    font-weight: lighter;
+    
+
+}
+
+.main{
+    background-color: #fff;
+    display: block;
+    widows: 100%;;
+    box-shadow: 2px -2px #e3e2e2;
+    position: relative;
+    bottom: 680px;
+    margin: 0px;
+}
