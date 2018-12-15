@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    @keyframes change{
+      from{
+        opacity: 1;
+        transform: rotate(0deg);
+      }
+      49%{
+        opacity: 1;
+      }
+      52%{
+        opacity: 0;
+      }
+      to{
+        opacity: 1;
+        transform: rotate(360deg);
+      }
+    }
+   .circle{
+     opacity: 1;
+     display: block;
+     width: 40px;
+     height: 40px;
+     position: absolute;
+     left: 300px;
+     top: 200px;
+     transform-origin: 120px 10px;
+     border-radius: 50%;
+     background-color: aquamarine;
+     animation: change 2s cubic-bezier(.62,.33,.45,.70) infinite; 
+   }
+   .first{
+     animation-delay: 0s;
+   }
+   .second{
+    animation-delay: 0.2s;
+   }
+   .third{
+    animation-delay: 0.4s;
+   }
+   .fourth{
+    animation-delay: 0.6s;
+   }
+  </style>
+</head>
+<body>
+  <div  class="whole">
+    <div class="first circle"></div>
+    <div class="second circle"></div>
+    <div class="third circle"></div>
+    <div class="fourth circle"></div>
+  </div>
+</body>
+</html>

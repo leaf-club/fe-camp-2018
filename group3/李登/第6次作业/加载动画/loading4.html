@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    @keyframes change{
+      from{
+        opacity: 1;
+        transform: rotate(40deg);
+      }
+      20%{
+        opacity: .8;
+        transform: rotate(50deg);
+      }
+      40%{
+        opacity: .6;
+        transform: rotate(60deg);
+      }
+      60%{
+        opacity: .4;
+        transform: rotate(70deg);
+      }
+      80%{
+        opacity: .2;
+        transform: rotate(80deg);
+      }
+      to{
+        opacity: 0;
+        transform: rotate(90deg);
+      }
+    }
+
+    .whole{
+      position: relative;
+      top: 100px;
+      text-align: center;
+    }
+    .square{
+      opacity: 0;
+      display: inline-block;
+      background-color: aquamarine;
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+      animation: change 1.2s linear infinite;
+    }
+    .first{
+      animation-delay: 0;
+    }
+    .second{
+      animation-delay: 0.15s;
+    }
+    .third{
+      animation-delay: 0.3s;
+    }
+    .fourth{
+      animation-delay: 0.45s;
+    }
+    .fifth{
+      animation-delay: 0.6s;
+    }
+  </style>
+</head>
+<body>
+  <div class="whole">
+    <div class="square first"></div>
+    <div class="square second"></div>
+    <div class="square third"></div>
+    <div class="square fourth"></div>
+    <div class="square fifth"></div>
+  </div>
+</body>
+</html>

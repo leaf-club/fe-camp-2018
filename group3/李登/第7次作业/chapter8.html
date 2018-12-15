@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    input{
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <!--先编写好网页布局-->
+  <input type="text" value="操作成功" id="1" readonly>
+  <br>
+  <input type="text" value="5秒后回到主页" id="2" readonly>
+  <br>
+  <input type="button" value="返回" onclick="jump()">
+
+  <script>
+    //获取显示秒数的元素，通过定时器来更改秒数。
+    var count = 5;
+    function reduce(){
+      count--;
+      document.getElementById("2").value = count + "秒后回到主页";
+      if(count == 0){
+        window.open("https://www.imooc.com/","_self");
+      }
+    }
+    setInterval("reduce()",1000);
+
+    //通过window的location和history对象来控制网页的跳转。
+    function jump(){
+      window.history.back();
+    }
+  </script>
+</body>
+</html>
