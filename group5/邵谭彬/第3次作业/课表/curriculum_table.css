@@ -1,0 +1,21 @@
+h1{
+    text-align:center;
+}
+p{
+    text-align:center;
+}
+
+table{
+    font-size: 10px;
+    text-align:center;
+    table-layout:fixed;
+    border-right:1px solid rgb(12, 112, 129);
+    border-bottom:1px solid rgb(12, 112, 129);
+    background-color:rgb(189, 231, 238);
+}
+
+table td {
+    border-left:1px solid rgb(12, 112, 129);
+    border-top:1px solid rgb(12, 112, 129);
+    padding: 7px;
+}
