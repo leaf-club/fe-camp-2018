@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    min-width: 353px;
+    overflow: scroll;
+}
+#about p,#exp p{
+    color: rgb(104, 104, 104);
+    font-size: 14px;
+}
+#about h4{
+    margin:  0.5em 0;
+}
+h4,h5{
+    font-family: 'Oswald', sans-serif;
+}
+#exp h5{
+    color: #00bdbd;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+div{
+    display: block;
+    box-sizing: border-box;
+}
+#banner{
+    box-sizing: border-box;
+}
+#ban_cont{
+    background:url(bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+    margin-bottom: 10.3em;
+}
+#header{
+    text-align: center;
+    padding: 2em 2em 4em;
+    width: 100%;
+}
+h1{
+    font-family: 'Oleo Script', cursive;
+    font-weight: 100;
+    margin: 0;
+    font-size: 36px;
+    float: left;
+}
+#name{
+    box-sizing: border-box;
+    text-align: center;
+}
+#ban_con_2{
+    position: absolute;
+    width: 72%;
+    margin: 0 14%;
+}
+
+.address_text li {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 0.8em;
+    font-weight: 400;
+    list-style:none;
+}
+#ban_con_2_1{
+    float: left;
+    width: 49%;
+    background: #0c0c0c;
+    padding: 30px 50px;
+    margin-bottom: 1em;
+}
+#ban_con_2_2{
+    float: right;
+    width: 49%;
+    background: #000;
+     padding: 30px 50px;
+    max-height: 345px;
+    height: -webkit-fill-available;
+}
+@media(min-width:660px){
+    #about_left{
+        width: 50%;
+        float: left;
+        padding-right: 3em;
+        min-height: 130px;
+
+    }
+    #about_right{
+        width: 50%;
+        float: right;
+        padding-right: 2em;
+    }
+    #exp .container .info_right{
+        width: 50%;
+        border-left: 1px solid #999;
+        padding: 2em 22px 2em 4em;
+        min-height: 220px;
+    }
+    #exp .container .info_left{
+        float: left;
+        width: 50%;
+        padding: 30px 4em 0 0;
+        text-align: right;
+    }
+}
+@media (max-width:722px){
+    #ban_cont{
+        margin-bottom: 30em;
+    }
+    #ban_con_2{
+        width: 84%;
+        margin: 0 8%;
+    }
+    #ban_con_2_1{
+        float: left;
+        width: 100%;
+    }
+    #ban_con_2_2{
+        float: left;
+        width: 100%;
+
+    }
+}
+@media (max-width:659px){
+    #about_left{
+        padding-bottom: 20px;
+    }
+    #about_right{
+        padding-bottom: 20px;
+    }
+    #exp .container .info_right{
+        float: none;
+        width: 100%;
+        border-left: none;
+        padding-left: 20px;
+        padding-bottom: 1em;
+    }
+    #exp .container .info_left{
+        float: none;
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+    }
+    #exp h4,h5{
+        margin: 10px 0;
+    }
+}
+@media (min-width:722px){
+    #about .container,#exp .container{
+        width: 680px;
+    }
+    #exp .container .info_right{
+        padding: 2em 22px 0.8em 4em;
+    }
+   
+}
+@media (min-width:889px){
+    #about .container,#exp .container{
+        width: 850px;
+    }
+    #exp .container .info_right{
+        padding: 2em 22px 1.2em 4em;
+    }
+
+}
+@media (min-width:1120px){
+    #about .container,#exp .container{
+        width: 962px;
+    }
+}
+@media (min-width:1285px){
+    #about .container,#exp .container{
+        width: 1200px;
+    }
+    #exp .container .info_right{
+        padding: 2em 22px 2em 4em;
+    }
+}
+
+#ban_con_2_1 img {
+    margin: 0 auto;
+    width: 28%;
+    border: 2px solid #00bdbd;
+    padding: 6px;
+    display: block;
+    max-width: 100px;
+    height: auto;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+ul.address {
+    margin-top: 2em;
+    border-top: 1px solid #ec1944;
+    padding-top: 0.5em;
+    padding-left: 0px;
+}
+ul.address_text{
+    padding: 0;
+}
+
+#about{
+    padding: 43px 0px;
+}
+#about .container .wrap{
+    width: 100%;
+    min-height: 240px;
+}
+#about .container,#exp .container{
+    margin: 0 auto;
+   padding:0 15px;
+    position: relative;
+}
+
+#bar_group .thin{
+    height: 12px;
+    border-radius: 2px;
+    margin-bottom: 40px;
+    background: #E4E4E4;
+}
+#bar_group .thin .thin_con{
+    background-color: #00bdbd;
+    height: 12px;
+    border-radius: 2px;
+    margin-bottom: 40px;
+}  
+#C{
+    width: 50%;
+}
+#PS{
+    width: 75%;
+}
+#excel{
+    width: 55%;
+}
+#HTML{
+    width: 35%;
+}
+#exp .container .info{
+    width: 100%;
+    min-height: 215px;
+}
+#exp .container .info_left{
+    display: inline-block;
+    
+}
+#exp .container .info_right{
+    text-align: left;
+    display: inline-block;
+
+}
