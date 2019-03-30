@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my first page</title>
+    <style>
+    h1 {
+        color: red;
+        font-size: 80px;
+        margin-top: 100px;
+    }</style>
+</head>
+<!-- <head>提供源信息 -->
+<body>
+    <h1 id="head">Hello world</h1>
+    <button id="btn">Plese click me !!!!</button> 
+    <!-- <body>闭合标签写javascript代码 -->
+        <script> 
+            alert("hello world form zzy")
+            document.getElementById('head').onclick = function(){
+                alert("hello world")
+                // id十分重要，决定后面函数是否会执行
+                // eg: document.getElementById('head').onclick事件
+                // 因为前面有<h1 id="head"的唯一标签id>
+            };
+            document.getElementById('btn').onclick = function(){
+                alert("it is ok")
+            };
+            document.getElementsByTagName("h1")[0].style.color="blue";
+            </script>
+</body>
+</html>
