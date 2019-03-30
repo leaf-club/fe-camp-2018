@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SimpleForm</title>
+</head>
+<body>
+    <form method="POST">
+        <p>用户名:<input type="text" name="username" placeholder="请输入用户名4-32位"
+            required minlength=4 maxlength=32 autofocus></p>
+        <p>密码:<input type="password" name="psword" placeholder="请输入密码"></p>
+        <p>Email:<input type="email" name="email" placeholder="请输入邮箱"></p>
+        <p>手机:<input type="text" name="phone" pattern="1\d{10}" placeholder="请输入手机号"</p>
+        <p>
+            <input type="radio" name="sex" value="male">男<br>
+            <input type="radio" name="sex" value="female">女
+        </p>
+        <p><input type="submit" name="input" value="Submit"></p>
+    </form>
+</body>
+</html>
