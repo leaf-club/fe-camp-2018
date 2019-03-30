@@ -1,0 +1,64 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+/* mask */ 
+#mask {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+/* card */
+#wrapper {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -270px;
+    margin-top: -170px;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px 5px #ccc; */
+    background: #fff;
+}
+#modal-header {
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid #555 2px;
+}
+#modal-header span:nth-child(2) {
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+#modal-content p {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ccc;
+    height: 150px;
+    overflow: auto;
+}
+#btns button {
+    height: 35px;
+    width: 70px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin: 0 10px;
+    color: #ffffff;
+}
+#cancel {
+    background-color: #ed4014;
+}
+#confirm {
+    background-color: #2d8cf0;
+}
