@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="mask"></div>
+    <button id="btn">Click me to check your syllabus!</button>
+    <div id="wrapper">
+        <div id="modal-header">
+            <span>课程表</span>
+            <span id="X">X</span>
+        </div>
+        <div id="modal-content">
+                    <table id="table" border="1" width="500">
+                        <th colspan="2" style="background-color:rgb(56, 53, 131);">2019年4月12日周五</th>
+                        <tr>
+                            <td id="line1">第一、二节</td>
+                            <td id="line2">微积分（一）下</td>
+                        </tr>
+                        <tr>
+                            <td id="line1">第三、四节</td>
+                            <td id="line2">大学物理</td>
+                        </tr>
+                        <tr>
+                            <td id="line1">第五、六节</td>
+                            <td id="line2"></td>
+                        </tr>
+                        <tr>
+                            <td id="line1">第七、八节</td>
+                            <td id="line2">线性代数</td>
+                        </tr>
+                        <tr>
+                            <td id="line1">第九、十节</td>
+                            <td id="line2"></td>
+                        </tr>
+                        <tr>
+                            <td id="line1">第十一、十二节</td>
+                            <td id="line2"></td>
+                        </tr>
+                    </table>
+        </div>
+        <div id="modal-footer">
+            <div id="btns">
+                <button id="cancel">cancel</button>
+                <button id="confirm">confirm</button>
+            </div>
+        </div>
+    </div>
+    <script src="modal.js"></script>
+</body>
+</html>
